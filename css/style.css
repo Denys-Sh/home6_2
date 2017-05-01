@@ -1,0 +1,363 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
+.wrapper{
+	width: 1392px;
+	margin: 0 auto;
+}
+
+
+.clear:after {
+  content: "";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+  background: transparent;
+  border: none;
+
+}
+.header{
+  padding: 76px 0 60px;
+  background:#ffffff;
+  color:#cfcfcf;
+}
+.site-name{
+  margin: 4px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.go-to button{
+  text-align: center;
+  display: inline-block;
+  color:#fff;
+  cursor: pointer;
+  border: none;
+}
+.go-to:before{ 
+  content: "≡"; /* символ */
+  font-size:50px;
+ }
+
+.eages {
+    display:inline-block;   
+    position:relative;
+    margin: 50px 0 150px;
+ 
+}
+.eages span {
+    display:inline-block;
+    position:absolute;
+    top:30px;   
+    right:10px;
+     
+    /* Оформление текста */
+    color:#212121;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px; 
+     
+    /* Фон */
+    background-color:rgba(0,0,0,.01);
+    padding:70px 10px 10px 0;
+    margin: 200px 60px 20px 0;
+
+}
+
+.pear_beaty{
+	/*display: inline-block;*/
+	width: 695px;
+ /* height: 995px;*/
+  float: left;
+}
+.pear_text{
+	width: 500px; /* Ширина левой колонки с рисунком */
+  font-size: 30px;
+margin: 250px 80px 0;
+float: right;
+}
+
+h3{
+ text-align:center;
+ font-size: 40px;
+}
+
+.vigan{
+ /* border: 3px solid darkblue;*/
+  width: 1392px;
+  height: 994px;
+  margin: 100px auto 50px;
+  padding: 0px 0px;
+}
+
+.vigan .left{
+  width: 640px;
+  height: 800px;
+ /* background: gold;*/
+  padding: 40px;
+}
+
+.vigan .right{
+  width: 698px;
+  height: 988px;
+ /* background: silver;*/
+}
+.vigan_text{ width: 500px;
+  font-size: 30px;
+  margin: 250px 80px 0;
+
+}
+.buter{
+ /* border: 3px solid darkblue;*/
+  width: 1392px;
+  height: 994px;
+  margin: 100px auto 50px;
+  padding: 0px 0px;
+}
+
+.buter .right{
+  width: 640px;
+  height: 800px;
+ /* background: gold;*/
+  padding: 40px;
+}
+
+.buter .left{
+ /* width: 698px;*/
+  height: 988px;
+ /* background: silver;*/
+}
+.buter_text{ width: 500px;
+  font-size: 30px;
+  margin: 250px 80px 0;
+}
+.meat {
+    /*display:inline-block;*/   
+    position:relative;
+    margin: 50px 0 150px;
+ 
+}
+.meat span {
+    display:inline-block;
+    position:absolute;
+    top:3px;   
+    left:800px;
+     
+    /* Оформление текста */
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+     
+    /* Фон */
+    background-color:rgba(143,143,143,.5);
+    padding:70px 77px 10px 70px;
+    margin: 200px 60px 20px 0;
+
+}
+h2{
+ text-align:center;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 40px;
+ color:#212121;
+}
+
+.meny{
+   text-align:center;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 33px;
+ color:#212121;
+ width: 1392px;
+  height: 1823px;
+  padding: 0 180px;
+}
+
+.rezerv{
+   text-align:center;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 33px;
+ color:#212121;
+ margin: 200px 0;
+ width: 1392px;
+  height: 500px;
+  padding: 0 180px;
+}
+.rezerv button{
+  width: 418px;
+  height: 130px;
+  margin: 50px 0;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  background:transparent;
+  border:6px solid #0d0d0d;
+  padding: 2px 20px;
+}
+.tea {
+    display:inline-block;   
+    position:relative;
+    margin: 50px 0 100px;
+    }
+.tea span {
+    display:inline-block;
+    position:absolute;
+    top:3px;   
+    left:800px;
+     
+    /* Оформление текста */
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px; 
+     
+    /* Фон */
+    background-color:rgba(77,77,77,.5);
+    padding:70px 77px 10px 70px;
+    margin: 180px 40px 20px 0;
+  }
+  .telefon {
+   text-align:center;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 33px;
+ color:#212121;
+ width: 1392px;
+  height: 1550px;
+  padding: 0 180px;
+}
+.subscribe {
+  width: 800px;
+  margin: 100px auto;
+  border: 4px solid #000000;
+  padding: 14px;
+  font-size: 24px;
+}
+.subscribe input, .subscribe button {
+  display: inline-block;
+  height: 75px;
+}
+input{
+  width: 62%;
+  border: none;
+  font-size: 24px;
+}
+button{
+  width: 38%;
+  background: transparent;
+  border: none;
+  position: relative;
+  font-size: 24px;
+  cursor: pointer;
+}
+button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 2px;
+  height: 75px;
+  background: #000;
+}
+* {
+  box-sizing: border-box;
+}
+.header_blac{
+  padding: 60px 0 60px;
+  background:#0d0d0d;
+  width: 100%;
+  height: 190px;
+  color:#cfcfcf;
+}
+.wrapper_blac{
+  text-align:center;
+  width: 1392px;
+  margin: 0 auto;
+  }
+.blac {
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:30px;
+ color:#ffffff;
+ margin: 0 ;
+}
+
+@media screen and (min-width: 1390px) {
+
+
+.wrapper{
+  margin:0 auto;
+  width:1390px;
+  }
+
+
+.wrapper_blac{
+    width:1390px;
+    margin:0 auto;
+  }
+}
+
+ @media screen and (min-width: 1024px) and (max-width: 1390px) {
+ 
+.wrapper{
+    width:1024px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .wrapper_blac{
+    width:1024px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .meat span{
+  left:100px;
+}
+
+  .pear_text{
+    width: 100%;
+    margin: 10px 0 10px 20px;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px){
+
+  .wrapper{
+    width:720px;
+    margin: 0 auto;
+  }
+  .wrapper_blac{
+    width:720px;
+    margin: 0 auto;
+  }
+.meat span {
+    display:inline-block;
+    position:absolute;
+    top:3px;   
+    left:10px;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+  
+  .wrapper{
+     width:320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .wrapper_blac{
+    width:320px;
+    margin: 0 auto;
+  } 
+}
+
